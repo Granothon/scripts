@@ -5,6 +5,7 @@ I have replaced some of private data like folder names or urls with placeholders
 '''To know whether a website allows web scraping or not, you can look at the website’s “robots.txt” file. 
 You can find this file by appending “/robots.txt” to the URL that you want to scrape. '''
 
+#imports
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util import Retry
